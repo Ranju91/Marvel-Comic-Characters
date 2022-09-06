@@ -2,7 +2,7 @@
 //  Marvel_Commic_CharactersTests.swift
 //  Marvel Commic CharactersTests
 //
-//  Created by Apple on 04/09/22.
+//  Created by Ranjana on 04/09/22.
 //
 
 import XCTest

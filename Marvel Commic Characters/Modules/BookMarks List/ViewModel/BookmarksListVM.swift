@@ -2,7 +2,7 @@
 //  BookmarksListVM.swift
 //  Marvel Commic Characters
 //
-//  Created by Apple on 05/09/22.
+//  Created by Ranjana on 05/09/22.
 //
 
 import Foundation
@@ -19,6 +19,8 @@ class BookmarksListVM {
     var listofBooksmarks : [CharacterDetailModel]?
     weak var delegate : BookmarksListVMProtocols?
     
+    var bookmarksListVC = BookmarksListVC()   
+    
     //MARK: - Check database & Maintain API Call
     func getAllBookmarkedValues() {
         self.listofBooksmarks =  DataStoreManager.shared.fetchAllBookmarkedList()
@@ -31,7 +33,7 @@ class BookmarksListVM {
                 self.delegate?.fetchUpdatedListAndUpdateContent()
               //  showAlertViewController(title: "Removed Successfully", messsage: "")
             } else {
-                showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
+                self.bookmarksListVC.showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
             }
         }
     }

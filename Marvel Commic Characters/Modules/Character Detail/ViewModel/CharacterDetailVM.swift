@@ -2,7 +2,7 @@
 //  CharacterDetailVM.swift
 //  Marvel Commic Characters
 //
-//  Created by Apple on 05/09/22.
+//  Created by Ranjana on 05/09/22.
 //
 
 import Foundation
@@ -46,9 +46,9 @@ class CharacterDetailVM  {
         DataStoreManager.shared.saveBookmark(id: Int64(detail?.id ?? 0), name: detail?.name ?? "", thumbnail: detail?.thumbnailPath ?? "", extensionUrl: detail?.thumbnailExtension ?? "", comicNames: detail?.comicNames ?? "") { isSucceded in
             if isSucceded {
                 self.characterDetailVC.btnMarkBookmark.isSelected = true
-                showAlertViewController(title: "Saved Successfully", messsage: "")
+                self.characterDetailVC.showAlertViewController(title: "Saved Successfully", messsage: "")
             } else {
-                showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
+                self.characterDetailVC.showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
             }
         }
     }
@@ -58,9 +58,9 @@ class CharacterDetailVM  {
         DataStoreManager.shared.removeBookmark(id: Int64(detail?.id ?? 0)) { isSucceded in
             if isSucceded {
                 self.characterDetailVC.btnMarkBookmark.isSelected = false
-                showAlertViewController(title: "Removed Successfully", messsage: "")
+                self.characterDetailVC.showAlertViewController(title: "Removed Successfully", messsage: "")
             } else {
-                showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
+                self.characterDetailVC.showAlertViewController(title: KDBErrorTitle, messsage: kDBErrorMessage)
             }
         }
     }

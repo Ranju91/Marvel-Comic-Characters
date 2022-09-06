@@ -25,6 +25,8 @@
 		1881790F28C4F78D00596FA0 /* ComicCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1881790D28C4F78D00596FA0 /* ComicCharacterCell.xib */; };
 		1881791428C520E700596FA0 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881791328C520E700596FA0 /* DataStoreManager.swift */; };
 		1881792128C53FBA00596FA0 /* BookmarksListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881792028C53FBA00596FA0 /* BookmarksListVM.swift */; };
+		1889797D28C72E0A0058E37F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4111528C3BCAE002CF9B7 /* Constants.swift */; };
+		1889798328C72F3E0058E37F /* ListComicCharacterTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889798228C72F3E0058E37F /* ListComicCharacterTestCase.swift */; };
 		18B410E228C3713D002CF9B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B410E128C3713D002CF9B7 /* AppDelegate.swift */; };
 		18B410E428C3713D002CF9B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B410E328C3713D002CF9B7 /* SceneDelegate.swift */; };
 		18B410E928C3713D002CF9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B410E728C3713D002CF9B7 /* Main.storyboard */; };
@@ -40,7 +42,6 @@
 		18B4111E28C3BF30002CF9B7 /* InternetConnectCheckClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4111D28C3BF30002CF9B7 /* InternetConnectCheckClass.swift */; };
 		18B4111F28C3BF30002CF9B7 /* InternetConnectCheckClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4111D28C3BF30002CF9B7 /* InternetConnectCheckClass.swift */; };
 		18B4112228C3C0ED002CF9B7 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4112128C3C0ED002CF9B7 /* CommonClass.swift */; };
-		18B4112328C3C0ED002CF9B7 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4112128C3C0ED002CF9B7 /* CommonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		1881790D28C4F78D00596FA0 /* ComicCharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComicCharacterCell.xib; sourceTree = "<group>"; };
 		1881791328C520E700596FA0 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
 		1881792028C53FBA00596FA0 /* BookmarksListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksListVM.swift; sourceTree = "<group>"; };
+		1889798228C72F3E0058E37F /* ListComicCharacterTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComicCharacterTestCase.swift; sourceTree = "<group>"; };
 		18B410DE28C3713D002CF9B7 /* Marvel Commic Characters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel Commic Characters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B410E128C3713D002CF9B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B410E328C3713D002CF9B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				18B410FB28C3713E002CF9B7 /* Marvel_Commic_CharactersTests.swift */,
+				1889798228C72F3E0058E37F /* ListComicCharacterTestCase.swift */,
 			);
 			path = "Marvel Commic CharactersTests";
 			sourceTree = "<group>";
@@ -514,7 +517,8 @@
 				18B4111C28C3BE3F002CF9B7 /* APIRequest.swift in Sources */,
 				18B4111F28C3BF30002CF9B7 /* InternetConnectCheckClass.swift in Sources */,
 				18B410FC28C3713E002CF9B7 /* Marvel_Commic_CharactersTests.swift in Sources */,
-				18B4112328C3C0ED002CF9B7 /* CommonClass.swift in Sources */,
+				1889798328C72F3E0058E37F /* ListComicCharacterTestCase.swift in Sources */,
+				1889797D28C72E0A0058E37F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  CharacterDetailModel.swift
 //  Marvel Commic Characters
 //
-//  Created by Apple on 05/09/22.
+//  Created by Ranjana on 05/09/22.
 //
 
 import Foundation
