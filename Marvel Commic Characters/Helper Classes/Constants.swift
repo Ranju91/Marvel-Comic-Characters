@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 
-let kMarvelsPublicKey = "9e0355f167a4e45ed011b1975aa27cea"
-let kMarvelsPrivateKey = "8ce9435d36c83d68a3bc7a2b34ff80e02eab48c4"
+let kMarvelsPublicKey = "9e0355f167a4e45ed011b1975aa27cea" // add your key
+let kMarvelsPrivateKey = "8ce9435d36c83d68a3bc7a2b34ff80e02eab48c4" // add your key
 let kConnectionErrorMsg = "Make sure your device is connected to the internet."
 let kNetworkError = "Network error"
 let kDBErrorMessage = "Some error occured while fetching your Local data. Please try again!"
